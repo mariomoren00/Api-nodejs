@@ -1,0 +1,22 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "Rest Api with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariomoren00/Api-nodejs.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Mario Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariomoren00/Api-nodejs/issues"
+  },
+  "homepage": "https://github.com/mariomoren00/Api-nodejs#readme"
+}
