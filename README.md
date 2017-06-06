@@ -1,3 +1,3 @@
-# Api nodejs
+# RESTful API - Node.js
 
-Rest Api with nodejs
+RESTful API with nodejs
