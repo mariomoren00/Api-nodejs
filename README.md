@@ -1,12 +1,8 @@
 # RESTful API - Node.js
 
-<<<<<<< HEAD
-Rest Api with nodejs
+
+RESTful API with nodejs
+
 
 
 # Tools
-
-
-=======
-RESTful API with nodejs
->>>>>>> origin/master
