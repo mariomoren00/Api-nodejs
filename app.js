@@ -9,16 +9,16 @@ require('dotenv').config();
 const app = express();
 
 // Declare routes files
-import authRoute from './app/route/auth.route.js';
+import authRoute from './app/http/routes/auth.route';
 
 // Parse incoming requests
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// plugin validator
+// Express validator Es5
 app.use(expressValidator());
 
-// Access control
+// Access control request and response
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
