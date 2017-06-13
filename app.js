@@ -15,7 +15,7 @@ import authRoute from './app/http/routes/auth.route';
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Express validator Es5
+// Express validator Ems5
 app.use(expressValidator());
 
 // Access control request and response
@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
 app.disable('etag');
 
 // Allow access to public folder
-app.use(express.static('app'));
+app.use(express.static(process.env.APP_PATH));
 
 // Declare routes  
 app.use('/api/v1/auth', authRoute);
